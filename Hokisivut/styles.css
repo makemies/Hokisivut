@@ -1,0 +1,226 @@
+Header { 
+	color: #FFFFFF;
+}
+
+h1 {
+	width: auto;
+	border-style: solid;
+	background-color: #000000;
+	padding: 5px;
+	margin: 3px;
+	border-color: #FFFFFF;
+	color: #FFFFFF;
+	border-radius: 10px;
+	float: right;
+	font-family: Verdana, Geneva, sans-serif;
+    font-size: 40px;
+	font-weight: bold;
+}
+
+h2 {
+	width: auto;
+	padding: 5px;
+	margin: 3px;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: Verdana, Geneva, sans-serif;
+    font-size: 40px;
+	font-weight: bold;
+	text-shadow: 2px 2px #000000;
+}
+
+.sivu2 {
+	color: #FFFFFF;
+	position:relative;
+	top: 50px;
+	float: right;
+	float: right;
+	font-size: 27px;
+	font-weight: bold;
+	
+
+}
+
+.sivu3 {
+	color: #FFFFFF;
+	position:relative;
+	top: 50px;
+	float: left;
+	font-size: 27px;
+	font-weight: bold;
+	text-shadow: 2px 2px #000000;
+
+
+}
+
+.sivu4 {
+	color: #FFFFFF;
+	position:relative;
+	top: 50px;
+	float: left;
+	font-size: 27px;
+	font-weight: bold;
+
+
+}
+
+.sivu1 {
+	color: #FFFFFF;
+	position:relative;
+	top: 100px;
+	left: 5%;
+	float: left;
+	font-size: 27px;
+	font-weight: bold;
+
+}
+
+.stroke {
+	color: white;
+	text-shadow: -2px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+.home {
+	color: black;
+	background: url(hoki.jpg);
+	background-repeat: no-repeat;
+    background-size:100%;
+	height: 100%;
+}
+	
+	
+
+.KHL {
+	color: black;
+	background: url(vuoret.jpg);
+	background-repeat: no-repeat;
+    background-size:100%;
+	height: 100%;
+}
+	
+.NHL {
+	color: black;
+	background: url(molari.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+    background-size:100%;
+	height: 100%;
+}
+
+.Mediat {
+	color: black;
+	background-color: #1E2022; 
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center;
+    background-size:100%;
+	height: 100%;
+}
+	
+.koodi {
+	background-color: #000000;
+}
+
+div.navbar-collapse ul.navbar-nav li {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+	font-weight: bold;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: left;
+  
+}
+
+input { 
+	width: 30%;
+}
+
+input[type=text] {
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+input[type=email] {
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+input[type=password] {
+  border: 2px solid black;
+  border-radius: 4px;
+}
+
+form {
+	position: relative;
+	float: right;
+	right: 5%;
+	color: white;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+table{
+	background-color:rgba(0, 0, 0, 0.5);
+	
+}
+
+
+th, tr, td {
+	color:white;
+	font-weight: bold;
+}
+
+caption {
+	color: white;
+	font-weight: bold;
+	text-shadow: 2px 2px black;
+	background-color:rgba(0, 0, 0, 0.5);
+	border: solid #000000;
+	border-radius: 3px;
+	box-sizing: border-box;
+	width: 25%;
+	text-shadow: 2px 2px #000000;
+}
+
+.valkotsik {
+	color: white;
+	font-weight: bold;
+	text-shadow: 2px 2px white;
+	background-color:rgba(0, 0, 0, 0.5);
+	border: solid #000000;
+	border-radius: 3px;
+	box-sizing: border-box;
+	width: 70%;
+	text-shadow: 2px 2px #000000;
+}
+
+iframe {
+	border: 2px red solid;
+	height: 100%;
+	width: 100%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+  justify-items: center;
+  padding: 20px;
+}
+
+.iframe-container {
+  height: 300px;
+  width: 100%;
+
+}
